@@ -8,4 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    a = x%11
+    return a==0
+print(main(98))

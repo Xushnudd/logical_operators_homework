@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    a = a%11
+    return a==0
+print(main(99))
